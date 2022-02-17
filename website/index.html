@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> 5 Tales</title>
+	<style>
+		tbody {
+  display: table-row-group;
+
+  border-color: inherit;
+}
+		thead{color: yellow}
+		tbody{color: orange}
+		tfoot{color: green}
+		table, td,th{
+			border: 1px solid gray;
+			background-color: black
+
+		}
+		table.center{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		th ,td{
+			padding: 10px
+		}
+</style>
+	<title>5 tales</title>
 </head>
-<body>
-This is my first Website
+<body style="background-color: black">
+	<img src="distracion.PNG"/>
+<table class="center" style="width: 800px"
+
+ display: table;>
+	<caption>5 Tales</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+		    <th>Field</th>
+		    <th colspan="2">Speciality</th>
+        </tr>
+	</thead>
+		
+	<tbody style="vertical-align: middle; text-align: center; ">
+		<tr style="height: 100px">
+		<td>Kiran</td>
+        <td>Artist</td>
+        <td>Landscape</td>
+        <td>Abstract</td>
+	</tr>
+	<tr style="height: 100px">
+		<td>Eman</td>
+		<td>Artist</td>
+		<td>Abstract</td>
+		<td>oil Paint</td>
+	</tr>
+	</tbody>
+	
+	<tfoot>
+		<tr>
+			<td>Total num</td>
+			<td>2</td>
+			<td>4</td>
+			<td>7</td>
+		</tr>
+	</tfoot>
+	
+</table>
+<p style="color: orange"> 5 tales is about 5 talented sisters</p>>
 </body>
 </html>
